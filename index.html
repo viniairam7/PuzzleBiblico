@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzles Bíblicos - Jornada de Fé</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="container">
+        <img src="https://icones.pro/wp-content/uploads/2021/05/icone-de-livre-noir.png" alt="Ícone de Livro" class="icon-book">
+        <h1>Puzzles Bíblicos</h1>
+        <h2>Jornada de Fé</h2>
+
+        <div class="quote">
+            <blockquote>"Porque eu desci do céu, não para fazer a minha vontade, mas a vontade daquele que me enviou."</blockquote>
+            <cite>— João 6:38</cite>
+        </div>
+
+        <p class="description">
+            Embarque em uma jornada espiritual através de 15 capítulos de puzzles inspirados nas Escrituras. Cada desafio revela uma lição profunda e um selo espiritual.
+        </p>
+
+        <div class="actions">
+            <button id="btnJogar" class="btn-primary">▶ Iniciar Jornada</button>
+            <button class="btn-secondary">📖 Livro da Sabedoria</button>
+        </div>
+    </main>
+
+    <div id="pixModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3>Acesso à Jornada de Fé</h3>
+            <p>Para desbloquear o conteúdo, realize o pagamento via PIX no valor de <strong>R$ 3,90</strong>.</p>
+            
+            <img src="qrcode-pix.png" alt="QR Code PIX para pagamento" class="qr-code-img">
+            
+            <p><strong>Ou use o PIX Copia e Cola:</strong></p>
+            <textarea readonly class="pix-code">SEU_CODIGO_PIX_COPIA_E_COLA_VAI_AQUI</textarea>
+            
+            <p class="warning">Após o pagamento, clique no botão abaixo para acessar o jogo.</p>
+            
+            <a href="jogo.html" class="btn-confirm-payment">Já Paguei, Começar a Jogar!</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
